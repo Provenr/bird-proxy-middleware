@@ -43,7 +43,7 @@ app.all('*', bird('./bird/birdfile.js'))
 ## birdfile 配置
 
 
-```json
+```javascript
 var birdConfig = {
   // 服务名称
   name: 'My App',
@@ -71,7 +71,7 @@ var birdConfig = {
 
 ## server 配置
 
-```json
+```javascript
 {
   // 目标 ip or domain
   server: 'http://10.0.0.0:8081',
