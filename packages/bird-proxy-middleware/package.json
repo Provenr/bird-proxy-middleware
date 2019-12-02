@@ -1,11 +1,10 @@
 {
   "name": "bird-proxy-middleware",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "bird-proxy-middleware is a proxy server with cas auth built in, and allows to easily mock requests",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bird-test/index.js",
-    "casper": "PHANTOMJS_EXECUTABLE=./node_modules/.bin/phantomjs ./node_modules/.bin/casperjs"
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,6 @@
   "homepage": "https://github.com/AngusYang9/bird-proxy-middleware",
   "dependencies": {
     "bluebird": "3.1.5",
-    "casperjs": "1.1.4",
     "cheerio": "0.19.0",
     "colors": "1.1.2",
     "commander": "^2.9.0",
@@ -31,17 +29,11 @@
     "json-buffer": "^3.0.0",
     "lodash": "^4.17.15",
     "mime-types": "2.1.8",
-    "phantomjs": "2.1.7",
     "request": "^2.88.0",
     "shell-spawn": "^2.0.0",
-    "touch": "^1.0.0",
-    "weinre": "2.0.0-pre-I0Z7U9OV"
+    "touch": "^1.0.0"
   },
   "devDependencies": {
-    "bird-proxy-middleware": "^0.0.1",
-    "express": "^4.13.3",
-    "mocha": "^2.1.0",
-    "q": "^1.4.1",
-    "should": "^7.1.1"
+    "mocha": "^6.2.2"
   }
 }
