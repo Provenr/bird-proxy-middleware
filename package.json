@@ -1,6 +1,6 @@
 {
   "name": "bird-proxy-middleware",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "bird-proxy-middleware is a proxy server with cas auth built in, and allows to easily mock requests",
   "main": "index.js",
   "scripts": {
