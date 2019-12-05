@@ -20,12 +20,12 @@ npm install --save bird-proxy-middleware
 
 ```shell
 mkdir bird
-git clone git@github.com:AngusYang9/bird-proxy-middleware-configs.git bird
+git clone https://github.com/AngusYang9/bird-proxy-middleware-configs.git bird
 ```
 
 其中, birdfile.js 为你的 bird 配置文件。
 
-**模板中已标明详细的配置参数说明，download it !**
+> **模板中已标明详细的配置参数说明，download it !**
 
 ## 作为中间件使用
 
