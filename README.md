@@ -42,4 +42,14 @@ app.all('*', bird('./bird/birdfile.js'))
 ...
 ```
 
-**订制登录认证 plugin，请联系me🤝**
+## plugin
+
+- 大象慧云信息技术有限公司
+
+1. ele-cloud-3-0
+2. ele-cloud-3-1
+3. ele-cloud-3-2
+4. ele-cloud-brc
+
+
+**定制登录认证 plugin，请联系me🤝**
