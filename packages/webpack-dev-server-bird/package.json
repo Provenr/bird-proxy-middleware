@@ -64,7 +64,7 @@
     "supports-color": "^5.1.0",
     "webpack-dev-middleware": "1.12.2",
     "yargs": "6.6.0",
-    "bird-proxy-middleware": "0.0.*"
+    "bird-proxy-middleware": "0.0.19"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
